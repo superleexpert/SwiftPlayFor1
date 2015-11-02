@@ -19,12 +19,12 @@ class FrontViewController: UIViewController {
         
         self.view.backgroundColor = UIColor.blueColor()
         
-        var backButton: UIButton = UIButton.buttonWithType(UIButtonType.ContactAdd) as! UIButton;
+        let backButton: UIButton = UIButton(type: UIButtonType.ContactAdd);
         backButton.frame = CGRectMake(20, 200, 44, 44)
         backButton.addTarget(self, action: Selector("backAction"), forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(backButton)
         
-        var jumpView: UIView = UIView(frame: CGRectMake(200, 100, 88, 88));
+        let jumpView: UIView = UIView(frame: CGRectMake(200, 100, 88, 88));
         jumpView.backgroundColor = UIColor.blackColor()
         jumpView.tag = kJumpViewNumber
         let tapGesture = UITapGestureRecognizer(target: self, action: "jumpAction:")
@@ -34,18 +34,18 @@ class FrontViewController: UIViewController {
     
     func backAction()
     {
-        println("dismiss")
+        print("dismiss")
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     func jumpAction(tap: UITapGestureRecognizer)
     {
         if (tap.view != nil) {
-            var jumpView = tap.view
-            var origionX: CGFloat = tap.view!.frame.origin.x
-            var origionY: CGFloat = tap.view!.frame.origin.y
-            var width: CGFloat = tap.view!.frame.size.width
-            var height: CGFloat = tap.view!.frame.size.height
+            let jumpView = tap.view
+            let origionX: CGFloat = tap.view!.frame.origin.x
+            let origionY: CGFloat = tap.view!.frame.origin.y
+            let width: CGFloat = tap.view!.frame.size.width
+            let height: CGFloat = tap.view!.frame.size.height
 
             UIView.animateWithDuration(0.5, animations: {
                 jumpView?.frame = CGRectMake(origionX, origionY + kJumpViewSpace, width, height)

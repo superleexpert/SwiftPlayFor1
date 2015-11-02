@@ -21,7 +21,7 @@ class ViewController: UIViewController
         tipLabel.text = "点我进入其他页面"
         self.view.addSubview(tipLabel)
         
-        var frontButton: UIButton = UIButton.buttonWithType(UIButtonType.InfoLight) as! UIButton
+        let frontButton: UIButton = UIButton(type: UIButtonType.InfoLight)
         frontButton.frame = CGRectMake(100, 100, 100, 30)
         frontButton.addTarget(self, action: Selector("frontPushAction"), forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(frontButton);
@@ -31,7 +31,7 @@ class ViewController: UIViewController
     func frontPushAction()
     {
         let frontViewController = FrontViewController()
-        println("push is ok")
+        print("push is ok")
         self.presentViewController(frontViewController, animated: true, completion: nil)
     }
     

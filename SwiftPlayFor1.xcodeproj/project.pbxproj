@@ -162,6 +162,8 @@
 		8400B6F91B9051F10085FCD0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = AppStudio;
 				TargetAttributes = {
@@ -419,6 +421,7 @@
 				8400B7221B9051F10085FCD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8400B7231B9051F10085FCD0 /* Build configuration list for PBXNativeTarget "SwiftPlayFor1Tests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +430,7 @@
 				8400B7251B9051F10085FCD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

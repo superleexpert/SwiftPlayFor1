@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BB13E887-5B83-471B-AAD9-E3350E433B6E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SwiftPlayFor1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8F9AD6A13168AC45CD0916DB517672596A765B4B</key>
+		<string>https://github.com/superleexpert/SwiftPlayFor1.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SwiftPlayFor1.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8F9AD6A13168AC45CD0916DB517672596A765B4B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/superleexpert/SwiftPlayFor1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8F9AD6A13168AC45CD0916DB517672596A765B4B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8F9AD6A13168AC45CD0916DB517672596A765B4B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftPlayFor1</string>
+		</dict>
+	</array>
+</dict>
+</plist>
